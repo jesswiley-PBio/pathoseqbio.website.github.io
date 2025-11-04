@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | PathoSeq Bio</title>
+  <meta name="description" content="Contact PathoSeq Bio for sequencing solutions, collaboration, or consulting." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="index.html"><img src="assets/img/PathoSeq_Bio_SVG.svg" alt="PathoSeq Bio Logo" /></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="collaborators.html">Case Studies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <button id="theme-toggle" aria-label="Toggle light/dark mode">🌓</button>
+        <li><div id="google_translate_element"></div></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="section-box contact-page">
+   <div class="contact-intro">
+    <h1>Contact PathoSeq Bio</h1>
+    <p>We welcome inquiries for collaborations, services, training, and scientific partnerships. Please complete the form below to get in touch.</p>
+   </div>
+
+   <!-- Contact Form -->
+   <form id="contactForm" action="https://formspree.io/f/mvgweoyy" method="POST" onsubmit="return handleSubmit(event)" class="contact-form">
+    <label for="name">Full Name*</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="email">Email Address*</label>
+    <input type="email" id="email" name="email" required
+      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+      title="Enter a valid email address (e.g., user@example.com)" />
+
+    <label for="organization">Organization</label>
+    <input type="text" id="organization" name="organization" />
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" />
+
+    <label for="message">Message*</label>
+    <textarea id="message" name="message" rows="8" required></textarea>
+
+    <!-- Google reCAPTCHA -->
+    <div class="g-recaptcha" data-sitekey="YOUR_RECAPTCHA_SITE_KEY_HERE"></div>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- Success Message -->
+   <div id="formSuccess" style="display:none; margin-top:1rem; color:#00cc99; font-weight:bold;">
+     ✅ Thank you for contacting us. We'll be in touch shortly.
+   </div>
+ </main>
+
+
+  <footer>
+    <p>&copy; 2025 PathoSeq Bio | All Rights Reserved | Omaha, Nebraska USA</p>
+    <div class="social">
+      <a href="https://github.com/jesswiley-PBio">GitHub</a>
+      <a href="https://www.protocols.io/view/pathoseq-bio-hybrid-capture-with-ont-minion-sequen-36wgqd5eovk5/v1">Protocols.io</a>
+      <a href="https://linkedin.com/in/jessica-wiley-phd-8a8a2b4b">LinkedIn</a>
+    </div>
+  </footer>
+
+  
+  <script src="assets/js/scripts.js"></script>
+  
+</body>
+</html>
+
