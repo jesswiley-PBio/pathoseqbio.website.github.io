@@ -568,16 +568,51 @@ body.light-mode .publication-list a {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .logo img {
+    height: 70px;
+  }
+
+  .hero {
+    margin-top: 100px; /* Pushes hero content below header */
+  }
+  
   .hero-content h1 {
-    font-size: 1.8rem;
+    font-size: 2.2rem;   /* More appropriate for mobile, bigger than h2 */
+    font-weight: 700;
+  }
+
+  .hero-content h2 {
+    font-size: 1.4rem;   /* Slightly smaller than h1 */
+    font-weight: 400;
   }
 
   .hero-content p {
     font-size: 1rem;
+    padding: 1rem;
   }
 
   section {
     padding: 3rem 1.5rem;
+  }
+
+  #about,
+  .contact-page,
+  .partners,
+  .services-detailed-page {
+    margin-top: 6rem;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
   }
 }
 

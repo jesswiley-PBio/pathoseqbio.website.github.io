@@ -85,14 +85,14 @@ document.addEventListener("DOMContentLoaded", function () {
   const partners = [
     { name: "UNMC / Nebraska Med", coords: [41.2565, -95.9345], logo: "assets/img/UNMC-2.jpg", url: "https://www.unmc.edu/", blurb: "Local sequencing partner for clinical and surveillance samples." , dois: [ "https://doi.org/10.1017/ice.2024.240", "https://doi.org/10.1016/j.idcr.2024.e01989" ] },
     { name: "NAMRU-IP", coords: [1.3521, 103.8198], logo: "assets/img/NAMRU-IP.jpg", url: "https://www.namru3.org/", blurb: "US DoD biomedical research institute supporting studies in SE Asia." , dois: [] },
-    { name: "Monash University", coords: [3.0738, 101.5183], logo: "assets/img/Monash_University_logo.svg", url: "https://www.monash.edu/", blurb: "Research partner for scrub typhus and SFTS virus studies.", dois: [] },
-    { name: "University of Malaysia Sabah", coords: [5.8950, 116.0510], logo: "assets/img/UMS-Logo.png", url: "https://ums.edu.my/v5/", blurb: "Research partner for scrub typhus and SFTS virus studies." , dois: []},
-    { name: "TIDREC", coords: [3.1390, 101.6869], logo: "assets/img/tidrec-logo.png", url: "https://tidrec.um.edu.my", blurb: "Partnered to validate hybrid-capture panels for endemic viruses.", dois: [] },
-    { name: "Hanyang University", coords: [37.5571, 127.0459], logo: "assets/img/hanyang.jpg", url: "https://www.hanyang.ac.kr/web/eng", blurb: "Partnered to validate hybrid-capture panels for endemic viruses.", dois: ["https://doi.org/10.1002/jmv.70305"] },
-    { name: "LOMWRU", coords: [17.9757, 102.6331], logo: "assets/img/LOMWRU.png", url: "https://www.tropmedres.ac/units/lomwru-lao-pdr", blurb: "Deployment site for respiratory panel sequencing.", dois: ["https://doi.org/10.1136/bmjopen-2024-098006"] },
-    { name: "Institut Pasteur Dakar (IPD)", coords: [14.7167, -17.4677], logo: "assets/img/IPD.webp", url: "https://institutpasteurdakar.sn/", blurb: "Pilot study partner for arbovirus panel testing in West Africa.", dois: [] },
-    { name: "INRB (DRC)", coords: [-4.3224, 15.3070], logo: "assets/img/INRB.jpeg", url: "https://inrb.net/", blurb: "Partner for Monkeypox sequencing and lab setup." , dois: [] },
-    { name: "Noguchi (Ghana)", coords: [5.6037, -0.1870], logo: "assets/img/noguchi.png", url: "https://noguchi.ug.edu.gh/", blurb: "Collaborated on hybrid-capture pilot for influenza and MPXV." , dois: [] }
+    { name: "Monash University", coords: [3.0738, 101.5183], logo: "assets/img/Monash_University_logo.svg", url: "https://www.monash.edu/", blurb: "Research partner for clinical respiratory sample studies.", dois: [] },
+    { name: "University of Malaysia Sabah", coords: [5.8950, 116.0510], logo: "assets/img/UMS-Logo.png", url: "https://ums.edu.my/v5/", blurb: "Research partner for DENV and other ID studies." , dois: []},
+    { name: "TIDREC", coords: [3.1390, 101.6869], logo: "assets/img/tidrec-logo.png", url: "https://tidrec.um.edu.my", blurb: "Partnered to validate hybrid-capture panels for endemic viruses such as Influenza and DENV.", dois: [] },
+    { name: "Hanyang University", coords: [37.5571, 127.0459], logo: "assets/img/hanyang.jpg", url: "https://www.hanyang.ac.kr/web/eng", blurb: "Partnered to validate hybrid-capture panels for endemic viruses like SFTSV, Hantaan etc. and perform phylogenetic analysis.", dois: ["https://doi.org/10.1002/jmv.70305"] },
+    { name: "LOMWRU", coords: [17.9757, 102.6331], logo: "assets/img/LOMWRU.png", url: "https://www.tropmedres.ac/units/lomwru-lao-pdr", blurb: "Testing and evaluation site for respiratory panel (hybrid-capture) sequencing.", dois: ["https://doi.org/10.1136/bmjopen-2024-098006"] },
+    { name: "Institut Pasteur Dakar (IPD)", coords: [14.7167, -17.4677], logo: "assets/img/IPD.webp", url: "https://institutpasteurdakar.sn/", blurb: "Collaborated hybrid-capture ONT sequencing of Rift Valley Fever project.", dois: [] },
+    { name: "INRB (DRC)", coords: [-4.3224, 15.3070], logo: "assets/img/INRB.jpeg", url: "https://inrb.net/", blurb: "Partner for MPXV sequencing." , dois: [] },
+    { name: "Noguchi (Ghana)", coords: [5.6037, -0.1870], logo: "assets/img/noguchi.png", url: "https://noguchi.ug.edu.gh/", blurb: "Collaborated on Illumina and ONT DENV and MPXV sequencing." , dois: [] }
   ];
 
   // Add markers with popup cards
