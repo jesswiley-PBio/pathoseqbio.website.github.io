@@ -8,7 +8,6 @@
   <title>Contact | PathoSeq Bio</title>
   <meta name="description" content="Contact PathoSeq Bio for sequencing solutions, collaboration, or consulting." />
   <link rel="stylesheet" href="assets/css/styles.css" />
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
@@ -54,8 +53,9 @@
     <label for="message">Message*</label>
     <textarea id="message" name="message" rows="8" required></textarea>
 
-    <!-- Google reCAPTCHA -->
-    <div class="g-recaptcha" data-sitekey="6LeDhgEsAAAAAJVFpgt4Bijg6DFfEXkbgHd67aVb"></div>
+    <!-- hCaptcha -->
+    <div class="h-captcha" data-sitekey="671cef2e-84b8-44ca-8a78-6d7a9fb49526"></div>
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
 
     <!-- Optional invisible spam trap -->
     <input type="text" name="_gotcha" style="display:none">
