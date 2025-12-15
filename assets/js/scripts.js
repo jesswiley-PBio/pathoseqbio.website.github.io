@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Partner data
   const partners = [
-    { name: "UNMC / Nebraska Med", coords: [41.2565, -95.9345], logo: "assets/img/UNMC-2.jpg", url: "https://www.unmc.edu/", blurb: "Local sequencing partner for clinical and surveillance samples." , dois: [ "https://doi.org/10.1017/ice.2024.240", "https://doi.org/10.1016/j.idcr.2024.e01989" ] },
+    { name: "UNMC / Nebraska Med", coords: [41.2565, -95.9345], logo: "assets/img/UNMC-2.jpg", url: "https://www.unmc.edu/", blurb: "Local sequencing partner for clinical and surveillance samples." , dois: [ "https://doi.org/10.1016/j.ajoc.2025.102486", "https://doi.org/10.1017/ice.2024.240", "https://doi.org/10.1016/j.idcr.2024.e01989" ] },
     { name: "NAMRU-IP", coords: [1.3521, 103.8198], logo: "assets/img/NAMRU-IP.jpg", url: "https://www.namru3.org/", blurb: "US DoD biomedical research institute supporting studies in SE Asia." , dois: [] },
     { name: "Monash University", coords: [3.0738, 101.5183], logo: "assets/img/Monash_University_logo.svg", url: "https://www.monash.edu/", blurb: "Research partner for clinical respiratory sample studies.", dois: [] },
     { name: "University of Malaysia Sabah", coords: [5.8950, 116.0510], logo: "assets/img/UMS-Logo.png", url: "https://ums.edu.my/v5/", blurb: "Research partner for DENV and other ID studies." , dois: []},
