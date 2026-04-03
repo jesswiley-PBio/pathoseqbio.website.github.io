@@ -84,9 +84,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // Partner data
   const partners = [
     { name: "UNMC / Nebraska Med", coords: [41.2565, -95.9345], logo: "assets/img/UNMC-2.jpg", url: "https://www.unmc.edu/", blurb: "Local sequencing partner for clinical and surveillance samples." , dois: [ "https://doi.org/10.1016/j.ajoc.2025.102486", "https://doi.org/10.1017/ice.2024.240", "https://doi.org/10.1016/j.idcr.2024.e01989" ] },
+    { name: "UF / UF Health", coords: [29.6417, -82.3451], logo: "assets/img/UF_PHHP-Logo.png", url: "https://phhp.ufl.edu/", blurb: "Regional sequencing partner for tick-borne and zoonotic diseases in Mongolia." , dois: [ "https://doi.org/10.3390/pathogens15040378" ] },
     /*
     { name: "NAMRU-IP", coords: [1.3521, 103.8198], logo: "assets/img/NAMRU-IP.jpg", url: "https://www.namru3.org/", blurb: "US DoD biomedical research institute supporting studies in SE Asia." , dois: [] },
     */
+    { name: "Vietnam Institute of Animal and Veterinary Sciences", coords: [21.08989, 105.73358], logo: "assets/img/logo_VIAVS.png", url: "https://vcn.org.vn/en", blurb: "Research partner for avian influenza studies.", dois: [] },
     { name: "Monash University", coords: [3.0738, 101.5183], logo: "assets/img/Monash_University_logo.svg", url: "https://www.monash.edu/", blurb: "Research partner for clinical respiratory sample studies.", dois: [] },
     { name: "University of Malaysia Sabah", coords: [5.8950, 116.0510], logo: "assets/img/UMS-Logo.png", url: "https://ums.edu.my/v5/", blurb: "Research partner for DENV and other ID studies." , dois: []},
     { name: "TIDREC", coords: [3.1390, 101.6869], logo: "assets/img/tidrec-logo.png", url: "https://tidrec.um.edu.my", blurb: "Partnered to validate hybrid-capture panels for endemic viruses such as Influenza and DENV.", dois: [] },
